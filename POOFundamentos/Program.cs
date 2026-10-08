@@ -29,11 +29,23 @@ car1.ExibirInformacoes();
 //Criar uma clase pedido 
 // Nome do cliente, Item, Quantidade, preço
 
-Pedido pedido1 = new Pedido();
+Pedido pedido1 = new Pedido(); //criado
 
-pedido1.Nome = "Pedro";
-pedido1.Item = "Pizza";
-pedido1.Quantidade = 2;
-pedido1.Preco = 90.50;
+Console.WriteLine("me diga seu nome:");
+pedido1.Nome = Console.ReadLine(); // colocando o valor digitado dentro do nome que esta no pedido
 
-pedido1.ExibirPedido();
+Console.WriteLine("me diga seu Item: ");
+pedido1.Item = Console.ReadLine();
+
+
+Console.WriteLine("me diga a quantidade :");
+pedido1.Quantidade = int.Parse(Console.ReadLine());
+
+Console.WriteLine("me diga o preço :");
+pedido1.Preco = double.Parse(Console.ReadLine());
+
+pedido1.ExibirPedido();// chama o metodo para mostrar 
+
+// ouuuuu (voce cham um por um como se fosse uma variavel
+
+//Console.WriteLine(pedido1.Nome)
