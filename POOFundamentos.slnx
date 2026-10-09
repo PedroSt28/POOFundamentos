@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="PilaresPOO/PilaresPOO.csproj" Id="4c1d609f-3c28-4bc3-b1f2-a35be85e6535" />
   <Project Path="POOFundamentos/POOFundamentos.csproj" />
   <Project Path="Praaticas_De-Exercicio/Praaticas_De-Exercicio.csproj" Id="64d993d9-ce67-479c-af3f-51937fc31472" />
 </Solution>

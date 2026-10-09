@@ -8,7 +8,6 @@ namespace Praaticas_De_Exercicio
     {
         public bool ligada;
 
-
         public void Ligar()
         {
             ligada = true;
@@ -24,16 +23,10 @@ namespace Praaticas_De_Exercicio
             ligada = !ligada;
         }
 
-        public void ExibirEstado()
+        public string ExibirEstado()
         {
-            if (ligada)
-            {
-                Console.WriteLine("Lampada Ligada");
-            }
-            else
-            {
-                Console.WriteLine("Lampada Desligada");
-            }
+            var resposta = ligada.ToString();
+            return resposta;    
         }
     }
 }
